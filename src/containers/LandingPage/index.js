@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import wordcloudMan from '../../assets/wordcloud_man.png'
+import Lightbulb from '../../components/Lightbulb'
 
 const LandingPage = () => {
   return (
@@ -20,10 +21,10 @@ const LandingPage = () => {
         </article>
       </section>
       <section className='lightbulb-section'>
-        {/* <Lightbulb bulbNum={'bulb-one'} text={'sign up'} route={'/signup'} />
+        <Lightbulb bulbNum={'bulb-one'} text={'sign up'} route={'/signup'} />
         <Lightbulb bulbNum={'bulb-two'} text={'personalities'} route={'/personality-types'}/>
         <Lightbulb bulbNum={'bulb-three'} text={'login'} route={'/login'} />
-        <Lightbulb bulbNum={'bulb-four'} text={'assessments'} route={'/assessments'} /> */}
+        <Lightbulb bulbNum={'bulb-four'} text={'assessments'} route={'/assessments'} />
     </section>
   </div>
     
